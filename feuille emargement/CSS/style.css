@@ -1,0 +1,85 @@
+body{
+    height: 100%;
+    width: 100%;
+
+
+}
+.body{
+display: flex;
+justify-content: center;
+
+}
+
+table{
+    border-collapse: collapse;
+    text-align:center;
+  }
+  
+  th{
+    border: 2px solid black;
+    width: 12.5%;
+  }
+  
+  td{
+    border: 2px solid black;
+
+      width: 10%;
+  }
+
+tr{
+    height: 60px;
+
+}
+
+
+.haut{
+    border: 2px solid black;
+}
+
+
+.cachet{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+  
+    
+}
+
+.signature{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+margin-right: 16.75%;
+
+}
+
+.emargement{
+
+  padding-top: 0 !important;
+}
+
+
+.premiertableau td, tr{
+width: 75px !important;
+height: 75px !important;
+}
+
+
+.premiertableau{
+  display: flex;
+  justify-content: center;
+
+}
+
+.deuxiemetableau th, td, tr, thead{
+  width: 75px !important;
+  height: 75px !important;
+}
+
+.deuxiemetableau{
+  margin-top: 50px;
+  display:flex;
+  justify-content: center ;
+}
+
